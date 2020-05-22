@@ -108,7 +108,7 @@ d3.json("../samples.json").then((otudata) => {
     }
   
     // On button click, call optionchanged()
-    d3.selectAll("#selDataset").on("change", optionChanged());
+    d3.selectAll("#selDataset").on("change", optionChanged);
   
   
   
